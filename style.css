@@ -12,6 +12,7 @@ button {
     border-radius: 8px;
     border: 2px solid black;
     color: #faf9f6;
+    cursor: pointer;
 }
 
 .container {
@@ -46,7 +47,8 @@ button {
     grid-column: span 2;
 }
 
-.operator {
+.operator,
+.equal {
     background-color: chocolate;
 }
 
